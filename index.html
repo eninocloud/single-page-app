@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+    crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+   
+    <title>AirAsia</title>
+</head>
+<body id="home">
+    <!-- navbar -->
+    <nav id="navbar">
+        <h1 class="logo">
+            <span class="text-primary">
+                <i class="fas fa-book-open"></i>
+                AA</span>Academy
+        </h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- showcase -->
+    <header id="showcase">
+        <div class="showcase-content">
+            <h1 class="l-headig text-primary">
+                Tech It Easy
+            </h1>
+            <p class="lead">Lorem ipsum dolor sit amet 
+                consectetur adipisicing 
+                elit. Laudantium, quasi.</p>
+                <a href="#services" class="btn">Read More</a>
+        </div>
+    </header>
+
+    <!-- Services (what we do)-->
+    <section id="what" class="bg-light py-1">
+        <div class="container">
+            <h2 class="m-heading text-center">
+                <span class="text-primary">What</span>
+            we do</h2>
+        
+        <div class="items">
+
+            <div class="item">
+                <i class="fas fa-university fa-2x"></i>
+        <div>
+            <h3>Software Engineering</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur
+                 adipisicing elit. Aliquam, dolores.</p>
+        </div>
+            </div>
+
+            <div class="item">
+                <i class="fas fa-book-reader fa-2x"></i>
+        <div>
+            <h3>Cyber security</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur
+                 adipisicing elit. Aliquam, dolores.</p>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quo?</p>
+        </div>
+            </div>
+
+            <div class="item">
+                <i class="fas fa-pencil-alt fa-2x"></i>
+        <div>
+            <h3>Cloud architect</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur
+                 adipisicing elit. Aliquam, dolores.</p>
+        </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- About us (who we are ) -->
+    <section id="who">
+        <div class="who-img"></div>
+        <div class="who-text bg-dark p-2">
+            <h2 class="m-heading"><span class="text-primary">Who</span>WeAre</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eius 
+                facere quaerat modi corporis omnis explicabo a esse sapiente commodi
+                 repellat error, fugit temporibus accusamus?</p>
+                 <h3>Our Team</h3>
+                 <ul class="list">
+                    <li>Sam Smith :CEO</li>
+                    <li>Anthony Robins : Lead Accoutant</li>
+                    <li>Tom Hanks :CFO</li>
+                    <li>Sam Smith :CEO</li>
+                 </ul>
+        </div>
+    </section>
+    <!-- Section : clients -->
+    <section id="clients" class="py-1">
+        <div class="container">
+            <h2 class="m-heading text-center"><span class="text-primary">Our</span>Clients</h2>
+            <div class="items py-1">
+                <div><img src="./twitter.png" alt=""></div>
+                <div><img src="./twitter.png" alt=""></div>
+                <div><img src="./twitter.png" alt=""></div>
+                <div><img src="./twitter.png" alt=""></div>
+                <div><img src="./twitter.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+    <section id="contact">
+        <div class="contact-form bg-primary p-2">
+            <h2 class="m-heading">Contact us</h2>
+            <p>Please use the form to contact us </p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter valid Email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="text" name="phone" id="phone" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="" cols="30" rows="10"></textarea>
+                </div>
+                <input type="submit" value="Send" class="btn btn-dark">
+            </form>
+        </div>
+        <div class="map"></div>
+    </section>
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark text-center py-1">
+        <div>
+            <p>Copyright &copy; 2023 , AiniAli</p>
+        </div>
+    </footer>
+    <!-- JQUERY CDN -->
+
+    <!-- Js file -->
+ <script src="./main.js"></script>
+    <!-- Google map  -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCS1DnQMs_PHu_B0OWcpY7hSzAO3Jfypp8&callback=initMap"
+    async defer></script>
+</body>
+</html>
